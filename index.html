@@ -1,0 +1,69 @@
+<html>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<div class="inventoryPopUp hidden" id="inventoryPop">
+  <p id="closeInventory">
+    Close Inventory
+  </p>
+</div>
+
+<div id="everything" class="">
+  <div id="infoBox" class="information">You wake up in a dimly lit room. An older man is standing over you. He politely asks for your name...</div>
+  <div id="healthBox" class="health hidden">
+    <p>Health: <span id="health"></span> /100</p>
+    <p>Gold: <span id="gold"></span></p>
+  </div>
+
+  <div id="inventoryBox" class="inventory hidden">
+    <p id="inventory">Access your Inventory</p>
+  </div>
+
+
+  <p id="enterName">Enter your Name:</p>
+  <form>
+    <input type="text" id="getName">
+  </form>
+
+  <p id="startGame">Tell the stranger your name...</p>
+
+  <div id="chooseWeap" class="startWeap hidden">
+    <p id="meleeGloves">Melee Gloves - Power: 5, Accuracy: 5, Luck: 9</p>
+    <p id="bronzeSword">Bronze Sword - Power: 10, Accuracy: 6, Luck: 6</p>
+    <p id="silverDagger">Silver Dagger - Power: 20, Accuracy: 5, Luck: 5</p>
+  </div>
+
+  <form class="hidden" id="theForm">
+    <select id="selectWeapon">
+      <option selected="selected">Select a Weapon</option>
+      <option>Melee Gloves</option>
+      <option>Bronze Sword</option>
+      <option>Silver Dagger</option>
+      <option>Black Sword</option>
+    </select>
+  </form>
+  <br>
+  <h3 class="hidden" id="caveEntrance">Head into the abandoned coal mine.</h3>
+  <div class="hidden" id="gameExplain">
+    <h4>Weapon and Battle explanation</h4>
+    <p>All weapons have three stats, power, accuracy and luck. <b>Power</b> is the amount of damage dealt to the enemy. <b>Accuracy</b> is the chance of hitting the enemy based on 10, so an accuracy of 6 means you have a 60% of hitting the enemy each turn.
+      When you miss an enemy, the enemy always retaliates. So essentially, the accuracy system is also your defenese system. <b>Luck</b> indicates how often you will find the enemy's drop. This can range from gold to special items. It is also based on
+      10, a weapon with a luck of 9 has a 90% of obtaining the enemy's drop each kill.</p>
+  </div>
+
+
+
+  <div class="hidden" id="caveOptions">
+    <p class="" id="caveSign">Read faint writing on wall</p>
+    <p class="" id="caveContinue">Walk around...</p>
+    <p class="" id="caveContinue">Head back to the old man's house...</p>
+  </div>
+
+</div>
+<h3 id="healthIndicator" class="hidden"><span id="nameHealth"></span> Health: <span id="enemyHealth"></span></h3>
+
+<div class="fightOptions">
+  <p id="attackEnemy" class="hidden">Attack <span id="nameAtt"></span></p>
+  <p id="runAway" class="hidden">Run Away from <span id="nameRun"></span></p>
+</div>
+    <script src="js/jquery.js"></script>
+    <script src="js/custom.js"></script>
+</html>

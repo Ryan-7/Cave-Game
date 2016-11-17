@@ -1,0 +1,127 @@
+.inventoryPopUp {
+  height: 50%;
+  width: 50%;
+  background: white;
+  color: black;
+  padding: 5px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  botom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  border: 1px dashed black;
+}
+
+.information {
+  background: black;
+  height: 100px;
+  width: 500px;
+  border: 3px solid red;
+  color: white;
+  font-size: 14px;
+  overflow: auto;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.health {
+  padding: 5px;
+  border: 1px solid black;
+  width: 500px;
+  height: 100px;
+  color: black;
+  margin: 0 auto;
+}
+
+.inventory {
+  padding: 5px;
+  border: 1px solid black;
+  width: 500px;
+  height: 50px;
+  color: black;
+  margin: 0 auto;
+}
+
+#startGame {
+  text-align: center;
+  border: 1px solid black;
+  width: 50%;
+  margin: 15px auto;
+}
+
+#startGame:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+#enterName {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+div.startWeap p {
+  color: black;
+  text-shadow: 3px black;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#healthIndicator {
+  text-align: center;
+}
+
+#theForm {
+  margin: 10px auto;
+  width: 25%;
+}
+
+#caveEntrance {
+  text-align: center;
+}
+
+#caveEntrance:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#caveOptions p {
+  text-align: center;
+}
+
+#caveOptions p:hover {
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+
+#inventory:hover {
+  color: red;
+  cursor: pointer;
+}
+
+div.fightOptions p {
+  border: 1px solid black;
+  width: 50%;
+  background: red;
+  color: white;
+  margin: 10px auto;
+}
+
+div.fightOptions p:hover {
+  border: 1px solid red;
+  width: 50%;
+  background: black;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
