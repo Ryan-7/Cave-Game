@@ -1,3 +1,3 @@
-# Cave-Game
+Web Game
 
-A text-based game I started working on a long time ago. Using object oriented programming. The plan is to revamp it and start anew soon. 
+The beginning of a text based web game I am working on using Object Oriented Programming. 
